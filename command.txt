@@ -32,5 +32,16 @@ git commit -a -m"init"
 -a все файлы из под присмотра
 -m сообщение
 
-Добавить под присмотр untracked file
-git add git_command.txt
+Добавить под присмотр untracked file - проиндесировать
+git add command.txt
+
+Комиит файлов проиндексированных
+git commit -m"add files"
+
+Добавить в индекс все модифицированные php-файлы
+git add "*.php"
+
+
+
+
+

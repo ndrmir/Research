@@ -2,3 +2,5 @@
 
 <?php
 phpinfo();
+
+echo "git";
