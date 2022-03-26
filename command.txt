@@ -1,0 +1,36 @@
+Создание репозитория
+git init
+
+Добавить глобального пользователя, есть локальные в каждом репозитории
+git config --global user.name "agallardo"
+
+Добавляем глобальный email
+git config --global user.email "agallardo@yandex.ru"
+
+Кофигурационные данные
+git config --list
+
+Внесенные данные
+C:\Users\agal\.gitconfig
+
+Игнорирование папок и файлов прописывается в:
+.gitignore
+
+Текущий статус проекта
+git status
+
+Показать файлы, которые еще не в git
+git status --untracked-files=all
+
+Добавить все файлы папки в git
+git add .
+
+Удалить файл из под присмотра git
+git rm --cached file.php
+
+git commit -a -m"init"
+-a все файлы из под присмотра
+-m сообщение
+
+Добавить под присмотр untracked file
+git add git_command.txt
