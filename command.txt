@@ -70,6 +70,15 @@ git log --since=2.week
 Последний commit и изменения при проведении commit
 git log -p -2
 
+Commit с комментарием
+git commit
+Esc :x - сохранить и выйти
+
+Notepad++ для записи комментариев при commit
+git config --global core.editor "'C:\Program Files\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+
+
 
 
 
